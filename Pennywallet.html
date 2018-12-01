@@ -1,101 +1,7 @@
-<html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<!--
-
-/*
- JavaScript BigInteger library version 0.9
- http://silentmatt.com/biginteger/
-
- Copyright (c) 2009 Matthew Crumley <email@matthewcrumley.com>
- Copyright (c) 2010,2011 by John Tobey <John.Tobey@gmail.com>
- Licensed under the MIT license.
-
- Support for arbitrary internal representation base was added by
- Vitaly Magerya.
- */
-
-// Copyright (c) 2014-2015, MyMonero.com
-// 
-// All rights reserved.
-// 
-// Redistribution and use in source and binary forms, with or without modification, are
-// permitted provided that the following conditions are met:
-// 
-// 1. Redistributions of source code must retain the above copyright notice, this list of
-//    conditions and the following disclaimer.
-// 
-// 2. Redistributions in binary form must reproduce the above copyright notice, this list
-//    of conditions and the following disclaimer in the documentation and/or other
-//    materials provided with the distribution.
-// 
-// 3. Neither the name of the copyright holder nor the names of its contributors may be
-//    used to endorse or promote products derived from this software without specific
-//    prior written permission.
-// 
-// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
-// EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
-// THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
-// PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
-// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
-// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
-// THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-// Original Author: Lucas Jones
-
-        /*!
- * Waves v0.6.0
- * http://fian.my.id/Waves
- *
- * Copyright 2014 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
- */
-
-        /*
-    @license
-    Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
-    This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-    The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-    The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-    Code distributed by Google as part of the polymer project is also
-    subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
- */
-
-//---------------------------------------------------------------------
-// QRCode for JavaScript
-//
-// Copyright (c) 2009 Kazuhiko Arase
-//
-// URL: http://www.d-project.com/
-//
-// Licensed under the MIT license:
-// http://www.opensource.org/licenses/mit-license.php
-//
-// The word "QR Code" is registered trademark of
-// DENSO WAVE INCORPORATED
-// http://www.denso-wave.com/qrcode/faqpatent-e.html
-//
-//---------------------------------------------------------------------
-
-/*
- * js-sha3 v0.5.1
- * https://github.com/emn178/js-sha3
- *
- * Copyright 2015, emn178@gmail.com
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- */
-
-/* Wallet generator modifications: Copyright 2015 moneromooo */
-
--->
-
-<head>
-  <title>Pennykoin offline wallet generator</title>
-  <meta charset="UTF-8">
+  <title>PK offline wallet generator</title>
+  
     <style type="text/css">
         html {
             line-height: 1.3;
@@ -124,8 +30,6 @@
         pre { margin:0px;}
     </style>
     <style>
-
-        div { word-wrap: break-word;}
         .materialize-red.lighten-5 {
             background-color: #fdeaeb !important;
         }
@@ -465,8 +369,6 @@
         .purple.lighten-1 {
             background-color: #ab47bc !important;
         }
-
-
 
         .purple-text.text-lighten-1 {
             color: #ab47bc !important;
@@ -2486,8 +2388,7 @@
  * Contain overflow in all browsers.
  */
         pre {
-
-            word-wrap: break-word;
+            overflow: auto;
         }
 
         /**
@@ -2667,7 +2568,6 @@
 
         td, th {
             padding: 0;
-            word-wrap: break-word;
         }
 
         html {
@@ -2962,7 +2862,6 @@
 
         table, th, td {
             border: none;
-            word-wrap: break-word;
         }
 
         table {
@@ -2992,7 +2891,6 @@
 
         table.centered thead tr th, table.centered tbody tr td {
             text-align: center;
-            word-wrap: break-word;
         }
 
         thead {
@@ -3005,7 +2903,6 @@
             text-align: left;
             vertical-align: middle;
             border-radius: 2px;
-            word-wrap: break-word;
         }
 
         @media only screen and (max-width: 992px) {
@@ -3021,7 +2918,6 @@
             table.responsive-table th, table.responsive-table td {
                 margin: 0;
                 vertical-align: top;
-                word-wrap: break-word;
             }
 
             table.responsive-table th {
@@ -3047,7 +2943,7 @@
                 width: auto;
                 position: relative;
                 overflow-x: auto;
-   
+                white-space: nowrap;
             }
 
             table.responsive-table tbody tr {
@@ -3064,7 +2960,6 @@
                 display: block;
                 min-height: 1.25em;
                 text-align: left;
-                word-wrap: break-word;
             }
 
             table.responsive-table tr {
@@ -3085,7 +2980,6 @@
                 border-left: 0;
                 border-right: 0;
                 border-bottom: 0;
-                word-wrap: break-word;
             }
 
             table.responsive-table.bordered tr {
@@ -3447,7 +3341,7 @@
         }
 
         .truncate {
-
+            white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
@@ -3892,7 +3786,6 @@
             display: inline-block;
             font-size: 2.1rem;
             padding: 0;
-            color: #15315e;
         }
 
         nav .brand-logo.center {
@@ -4605,7 +4498,7 @@
             background-color: #fff;
             margin: 0 auto;
             width: 100%;
-
+            white-space: nowrap;
         }
 
         .tabs .tab {
@@ -4835,6 +4728,7 @@
             overflow-y: auto;
             opacity: 0;
             position: absolute;
+            white-space: nowrap;
             z-index: 1;
             will-change: width, height;
         }
@@ -8548,15 +8442,22 @@ return{_strlen:lb,_ge_mul8:Va,_keccak:db,_ge_scalarmult:Ta,_ge_fromfe_frombytes_
 
 
 
-var salt = '4721283fee2db41e1f2fc50ea9f6d783'; // IMPORTANT: never change it, otherwise it will be impossible to restore previously generated wallets!
-var config = {
+
+var moneroConfig = {
     coinUnitPlaces: 2,
     coinSymbol: 'PK',
-    coinName: 'pennykoin',
-    coinUriPrefix: 'pennypay',
-    addressPrefix: '136'
+    coinName: 'Pennykoin',
+    coinUriPrefix: 'Pk:',
+    addressPrefix: 136
 };
-var cnUtil = (function(initConfig) {
+var aeonConfig = {
+    coinUnitPlaces: 12,
+    coinSymbol: 'AEON',
+    coinName: 'Aeon',
+    coinUriPrefix: 'aeon:',
+    addressPrefix: 0xB2
+};
+var cnUtilGen = function(initConfig) {
     //var config = $.extend({}, initConfig);
     var config = initConfig;
     config.coinUnits = new JSBigInt(10).pow(config.coinUnitPlaces);
@@ -8744,20 +8645,9 @@ var cnUtil = (function(initConfig) {
             first = seed;
         }
         keys.spend = this.generate_keys(first);
-        // this is monero style
-        // var second = this.keccak(keys.spend.sec, 32, 32);
-        // Qwertycoin paperwallet compatible
-        var second = this.keccak(first, 32, 32);
+        var second = this.keccak(keys.spend.sec, 32, 32);
         keys.view = this.generate_keys(second);
         keys.public_addr = this.pubkeys_to_string(keys.spend.pub, keys.view.pub);
-    
-    var prefix = this.encode_varint(CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX);
-    var privateKeyBase = prefix + keys.spend.pub + keys.view.pub + keys.spend.sec + keys.view.sec; // Qwertycoin privateKeyBase
-    var checksum = this.cn_fast_hash(privateKeyBase).slice(0, ADDRESS_CHECKSUM_SIZE * 2);
-    
-    keys.privateKeys = cnBase58.encode(privateKeyBase + checksum);
-        
-        
         return keys;
     };
 
@@ -8773,23 +8663,9 @@ var cnUtil = (function(initConfig) {
         public_addr = this.pubkeys_to_string(keys.spend.pub, "");
         if (public_addr.toUpperCase().slice(0, prefix.length) != prefix.toUpperCase())
           return null;
-        // var second = this.keccak(keys.spend.sec, 32, 32);
-        // Qwertycoin paperwallet compatible
-        var second = this.keccak(first, 32, 32);
+        var second = this.keccak(keys.spend.sec, 32, 32);
         keys.view = this.generate_keys(second);
         keys.public_addr = this.pubkeys_to_string(keys.spend.pub, keys.view.pub);
-
-        
-    
-    var prefix = this.encode_varint(CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX);
-    var privateKeyBase = prefix + keys.spend.pub + keys.view.pub + keys.spend.sec + keys.view.sec; // Qwertycoin privateKeyBase
-    var checksum = this.cn_fast_hash(privateKeyBase).slice(0, ADDRESS_CHECKSUM_SIZE * 2);
-    
-    keys.privateKeys = cnBase58.encode(privateKeyBase + checksum);
-    
-    
-    
-        
         return keys;
     };
 
@@ -9002,7 +8878,8 @@ var cnUtil = (function(initConfig) {
     }
 
     return this;
-})(config);
+};
+var cnUtil = cnUtilGen(moneroConfig);
 /*
  mnemonic.js : Converts between 4-byte aligned strings and a human-readable
  sequence of words. Uses 1626 common words taken from wikipedia article:
@@ -10216,8 +10093,8 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
   var PADDING = [6, 1536, 393216, 100663296];
   var SHIFT = [0, 8, 16, 24];
   var RC = [1, 0, 32898, 0, 32906, 2147483648, 2147516416, 2147483648, 32907, 0, 2147483649,
-            0, 2147516545, 2147483648, 32777, 2147483648, 138, 0, 136, 0, 2147516425, 0, 
-            2147483658, 0, 2147516555, 0, 139, 2147483648, 32905, 2147483648, 32771, 
+            0, 2147516545, 2147483648, 32777, 2147483648, 138, 0, 136, 0, 2147516425, 0,
+            2147483658, 0, 2147516555, 0, 139, 2147483648, 32905, 2147483648, 32771,
             2147483648, 32770, 2147483648, 128, 2147483648, 32778, 0, 2147483658, 2147483648,
             2147516545, 2147483648, 32896, 2147483648, 2147483649, 0, 2147516424, 2147483648];
   var BITS = [224, 256, 384, 512];
@@ -10307,9 +10184,9 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
     if(notString && message.constructor == root.ArrayBuffer) {
       message = new Uint8Array(message);
     }
-    var length = message.length, blocks = this.blocks, byteCount = this.byteCount, 
+    var length = message.length, blocks = this.blocks, byteCount = this.byteCount,
         blockCount = this.blockCount, index = 0, s = this.s, i, code;
-    
+
     while(index < length) {
       if(this.reset) {
         this.reset = false;
@@ -10378,7 +10255,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
   Keccak.prototype.toString = Keccak.prototype.hex = function() {
     this.finalize();
 
-    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks, 
+    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks,
         extraBytes = this.extraBytes, i = 0, j = 0;
     var hex = '', block;
     while(j < outputBlocks) {
@@ -10411,7 +10288,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
   Keccak.prototype.buffer = function() {
     this.finalize();
 
-    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks, 
+    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks,
         extraBytes = this.extraBytes, i = 0, j = 0;
     var bytes = this.outputBits >> 3;
     var buffer;
@@ -10439,7 +10316,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
   Keccak.prototype.digest = Keccak.prototype.array = function() {
     this.finalize();
 
-    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks, 
+    var blockCount = this.blockCount, s = this.s, outputBlocks = this.outputBlocks,
         extraBytes = this.extraBytes, i = 0, j = 0;
     var array = [], offset, block;
     while(j < outputBlocks) {
@@ -10472,9 +10349,9 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
   };
 
   var f = function(s) {
-    var h, l, n, c0, c1, c2, c3, c4, c5, c6, c7, c8, c9, 
-        b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, 
-        b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33, 
+    var h, l, n, c0, c1, c2, c3, c4, c5, c6, c7, c8, c9,
+        b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17,
+        b18, b19, b20, b21, b22, b23, b24, b25, b26, b27, b28, b29, b30, b31, b32, b33,
         b34, b35, b36, b37, b38, b39, b40, b41, b42, b43, b44, b45, b46, b47, b48, b49;
     for(n = 0; n < 48; n += 2) {
       c0 = s[0] ^ s[10] ^ s[20] ^ s[30] ^ s[40];
@@ -10666,24 +10543,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
 }(this));
 
 </script>
-<script>
-/*
-CryptoJS v3.1.2
-code.google.com/p/crypto-js
-(c) 2009-2013 by Jeff Mott. All rights reserved.
-code.google.com/p/crypto-js/wiki/License
-*/
-var CryptoJS=CryptoJS||function(h,s){var f={},t=f.lib={},g=function(){},j=t.Base={extend:function(a){g.prototype=this;var c=new g;a&&c.mixIn(a);c.hasOwnProperty("init")||(c.init=function(){c.$super.init.apply(this,arguments)});c.init.prototype=c;c.$super=this;return c},create:function(){var a=this.extend();a.init.apply(a,arguments);return a},init:function(){},mixIn:function(a){for(var c in a)a.hasOwnProperty(c)&&(this[c]=a[c]);a.hasOwnProperty("toString")&&(this.toString=a.toString)},clone:function(){return this.init.prototype.extend(this)}},
-q=t.WordArray=j.extend({init:function(a,c){a=this.words=a||[];this.sigBytes=c!=s?c:4*a.length},toString:function(a){return(a||u).stringify(this)},concat:function(a){var c=this.words,d=a.words,b=this.sigBytes;a=a.sigBytes;this.clamp();if(b%4)for(var e=0;e<a;e++)c[b+e>>>2]|=(d[e>>>2]>>>24-8*(e%4)&255)<<24-8*((b+e)%4);else if(65535<d.length)for(e=0;e<a;e+=4)c[b+e>>>2]=d[e>>>2];else c.push.apply(c,d);this.sigBytes+=a;return this},clamp:function(){var a=this.words,c=this.sigBytes;a[c>>>2]&=4294967295<<
-32-8*(c%4);a.length=h.ceil(c/4)},clone:function(){var a=j.clone.call(this);a.words=this.words.slice(0);return a},random:function(a){for(var c=[],d=0;d<a;d+=4)c.push(4294967296*h.random()|0);return new q.init(c,a)}}),v=f.enc={},u=v.Hex={stringify:function(a){var c=a.words;a=a.sigBytes;for(var d=[],b=0;b<a;b++){var e=c[b>>>2]>>>24-8*(b%4)&255;d.push((e>>>4).toString(16));d.push((e&15).toString(16))}return d.join("")},parse:function(a){for(var c=a.length,d=[],b=0;b<c;b+=2)d[b>>>3]|=parseInt(a.substr(b,
-2),16)<<24-4*(b%8);return new q.init(d,c/2)}},k=v.Latin1={stringify:function(a){var c=a.words;a=a.sigBytes;for(var d=[],b=0;b<a;b++)d.push(String.fromCharCode(c[b>>>2]>>>24-8*(b%4)&255));return d.join("")},parse:function(a){for(var c=a.length,d=[],b=0;b<c;b++)d[b>>>2]|=(a.charCodeAt(b)&255)<<24-8*(b%4);return new q.init(d,c)}},l=v.Utf8={stringify:function(a){try{return decodeURIComponent(escape(k.stringify(a)))}catch(c){throw Error("Malformed UTF-8 data");}},parse:function(a){return k.parse(unescape(encodeURIComponent(a)))}},
-x=t.BufferedBlockAlgorithm=j.extend({reset:function(){this._data=new q.init;this._nDataBytes=0},_append:function(a){"string"==typeof a&&(a=l.parse(a));this._data.concat(a);this._nDataBytes+=a.sigBytes},_process:function(a){var c=this._data,d=c.words,b=c.sigBytes,e=this.blockSize,f=b/(4*e),f=a?h.ceil(f):h.max((f|0)-this._minBufferSize,0);a=f*e;b=h.min(4*a,b);if(a){for(var m=0;m<a;m+=e)this._doProcessBlock(d,m);m=d.splice(0,a);c.sigBytes-=b}return new q.init(m,b)},clone:function(){var a=j.clone.call(this);
-a._data=this._data.clone();return a},_minBufferSize:0});t.Hasher=x.extend({cfg:j.extend(),init:function(a){this.cfg=this.cfg.extend(a);this.reset()},reset:function(){x.reset.call(this);this._doReset()},update:function(a){this._append(a);this._process();return this},finalize:function(a){a&&this._append(a);return this._doFinalize()},blockSize:16,_createHelper:function(a){return function(c,d){return(new a.init(d)).finalize(c)}},_createHmacHelper:function(a){return function(c,d){return(new w.HMAC.init(a,
-d)).finalize(c)}}});var w=f.algo={};return f}(Math);
-(function(h){for(var s=CryptoJS,f=s.lib,t=f.WordArray,g=f.Hasher,f=s.algo,j=[],q=[],v=function(a){return 4294967296*(a-(a|0))|0},u=2,k=0;64>k;){var l;a:{l=u;for(var x=h.sqrt(l),w=2;w<=x;w++)if(!(l%w)){l=!1;break a}l=!0}l&&(8>k&&(j[k]=v(h.pow(u,0.5))),q[k]=v(h.pow(u,1/3)),k++);u++}var a=[],f=f.SHA256=g.extend({_doReset:function(){this._hash=new t.init(j.slice(0))},_doProcessBlock:function(c,d){for(var b=this._hash.words,e=b[0],f=b[1],m=b[2],h=b[3],p=b[4],j=b[5],k=b[6],l=b[7],n=0;64>n;n++){if(16>n)a[n]=
-c[d+n]|0;else{var r=a[n-15],g=a[n-2];a[n]=((r<<25|r>>>7)^(r<<14|r>>>18)^r>>>3)+a[n-7]+((g<<15|g>>>17)^(g<<13|g>>>19)^g>>>10)+a[n-16]}r=l+((p<<26|p>>>6)^(p<<21|p>>>11)^(p<<7|p>>>25))+(p&j^~p&k)+q[n]+a[n];g=((e<<30|e>>>2)^(e<<19|e>>>13)^(e<<10|e>>>22))+(e&f^e&m^f&m);l=k;k=j;j=p;p=h+r|0;h=m;m=f;f=e;e=r+g|0}b[0]=b[0]+e|0;b[1]=b[1]+f|0;b[2]=b[2]+m|0;b[3]=b[3]+h|0;b[4]=b[4]+p|0;b[5]=b[5]+j|0;b[6]=b[6]+k|0;b[7]=b[7]+l|0},_doFinalize:function(){var a=this._data,d=a.words,b=8*this._nDataBytes,e=8*a.sigBytes;
-d[e>>>5]|=128<<24-e%32;d[(e+64>>>9<<4)+14]=h.floor(b/4294967296);d[(e+64>>>9<<4)+15]=b;a.sigBytes=4*d.length;this._process();return this._hash},clone:function(){var a=g.clone.call(this);a._hash=this._hash.clone();return a}});s.SHA256=g._createHelper(f);s.HmacSHA256=g._createHmacHelper(f)})(Math);
-</script>
+
 <style type="text/css">
 html { font-family: sans-serif }
 .private { background-color: #FF8080 }
@@ -10700,127 +10560,84 @@ html { font-family: sans-serif }
   z-index: 1007;
   display: none;
 }
-
-#coinIcon{
-    text-transform: capitalize;
-    width: 1.3em;
-    height: 1.3em;
-    line-height: 1.2em;
-    display: inline-block;
-    vertical-align: middle;
-    color: #15315e;
-    border: 2px solid #15315e;
-    border-radius: 50%;
-    text-align: center;
-    margin-top: 0px;
-}
 </style>
 
-<nav class="grey lighten-3">
-    <div class="nav-wrapper">
-        <a href="#" class="brand-logo center">
-            Pennykoin
-        </a>
-
-    </div>
-</nav>
-
-<div class="row">&nbsp;</div>
 <div class="row center-align">
     <div class="col s12">
-        <h4 style="color: #555;">Offline wallet generator</h4>
+        <h4 style="color: #555;">PK Offline wallet generator</h4>
     </div>
 </div>
 
-
-    <div class="row">
-        <div class="col s12">
-            <p>
-                This page generates a new <a href="https://pennykoin.com/">Pennykoin</a> wallet. It is self contained and
-                does all the necessary calculations locally, so is suitable for generating a new wallet on airgapped device (not connected to a network). This way, you can create
-                a Pennykoin wallet in a totally secure location.
-            </p>
+<center>
+    <div class="">
+        <div class="">
+                <input class="btn orange" onclick="js:genwallet(null);" value="Generate wallet" id="gen_with_custom_entropy_button" action="" type="button">
+                            <input id="user_entropy_widget" oninput="js:checkEntropy();" type="text">
+                <div style="color: red; display: none" id="user_entropy_warning_widget">WARNING: entropy is way too low for the wallet to be secure: aim for 256 bits (about a hundred dice throws)</div>
         </div>
-    </div>
-    <div class="row valign-wrapper">
-        <div class="col s10 left-align ">
-                <input class="btn orange" type="button" onclick="js:genwallet(null);"
-                       value="Generate wallet" action=""/>
-                <p>Custom entropy (leave empty to use PRNG)</p>
-                <input type="text" value="" id="user_entropy_widget" />
-        </div>
-    </div>
+</div></center>
+    
 
     <div class="row">
         <div class="col s12">
             <div class="card light-green lighten-5">
                 <div class="card-content light-green-text text-darken-4">
                     <span class="card-title light-green-text text-darken-4">
-                      Public address
+                      Deposit Address
                     </span>
-
-                    <p>This is the address you give to third parties to send PK to you.
-                        <br><b>It is the only information here that's meant to be public.</b>
+                    <p>This is your deposit address, this is where people can send you money.
+                        <br><b>This is like a checking account # for direct deposit, or a paypal address.</b>
                     </p>
                 </div>
                 <div class="card-action center-align">
-                    <pre class="center-align" id="address_widget">generating...</pre>
-   
+                    <pre class="center-align" id="address_widget">PkR74Gn7QSjEgfDBG3JAM7W6N9ShhMY7iKPwY6EVn9w1jgBZauT4fVS55BRjkWtqVxLab4Mt8bUMW8VnW4r6skcb2aoBAt6vo</pre>
+                    <span class="qrcode" id="address_qr_widget" onclick="js:toggle_qr();"></span>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="row">
+        <div class="col s12">
+            <div class="card pink lighten-5">
+                <div class="card-content pink-text text-darken-5">
+                    <span class="card-title pink-text text-darken-5">Mnemonic seed</span>
+                    <p>
+                          These 25 words can recover your Pennykoin Account anywhere. Don't give this to anyone you wouldn't give your ATM pin to. <b>Keep it secure!</b>
+                    </p>
+                </div>
+                <div class="card-action center-align">
+                    <h5 class="grey-text text-darken-4" id="mnemonic_widget">rogue cactus axes icing fizzle gorilla lifestyle dotted lilac virtual wipeout feel elite boxes karate azure match vowels mailed darted alchemy puddle natural newt karate</h5>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col s12">
             <div class="card indigo lighten-5">
                 <div class="card-content indigo-text text-darken-4">
-                    <span class="card-title indigo-text text-darken-4">Private Key</span>
+                    <span class="card-title indigo-text text-darken-4">View Key</span>
 
                     <p>
-
-                        <strong>Private Key</strong> can be imported into QTPenny in File > Import private key, or selecting [I]mport private key in pkwallet
-                        This code can recreate your wallet on ANY device, guard it like you would cash!
+                        This view key will let anyone who has it see any deposits made to the wallet. It doesn't show accurate balance since it only shows incoming.  It is mainly used by websites/exchanges to confirm a transaction took place, on our block explorer or otherwise.
                     </p>
                     <br>
                     <table>
                         <tbody>
-                                          
                         <tr>
-                            <td><pre>Private Key:</pre></td>
-            
+                            <td><pre>View key:</pre></td>
+                            <td><pre id="view_key_widget">09b807c89c560cec2893785569df18c6af327126ff816b412adac908aaffa706</pre></td>
                         </tr>
-                        
-                        
-                        
                         </tbody>
                     </table>
-                   <div id="wallet_keys_widget">Generating...</div>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-<div class="row">&nbsp;</div>
-<footer class="page-footer grey lighten-3 grey-text text-darken-4">
-    <div class="container">
-        <div class="row">
-            <div class="col l12">
-                <h5>Credits</h5>
-                <p>
-                    Made by moneromooo, based on code from <a href="https://mymonero.com/">MyMonero</a>. Adapted for Pennykoin Copyright notices in the source.
-                    <br>
-                </p>
-
-
-            </div>
-        </div>
-    </div>
-</footer>
-
 <script>
+window.onbeforeunload = function(e) {
+    return '';
+};
 function poor_mans_kdf(str)
 {
   var hex = cnBase58.bintohex(cnBase58.strtobin(str));
@@ -10832,18 +10649,15 @@ current_lang='english';
 keys = null;
 function genwallet(lang)
 {
-  spend_key_widget = document.getElementById("spend_key_widget");
+  if(keys && !confirm('Are you sure? This wallet cannot be recovered once a new wallet is generated.')) {
+    return;
+  }
   view_key_widget = document.getElementById("view_key_widget");
-  wallet_keys_widget = document.getElementById("wallet_keys_widget");
   address_widget = document.getElementById("address_widget");
   address_qr_widget = document.getElementById("address_qr_widget");
   mnemonic_widget = document.getElementById("mnemonic_widget");
   user_entropy_widget = document.getElementById("user_entropy_widget")
 
-  this.getStringWords = function(string) {
-    return string.replace(/^\s*(.*)\s*$/, '$1').replace(/\s+/, ' ').split(' ');
-  };
-  
   if (lang!=null) {
     current_lang = lang;
   }
@@ -10855,21 +10669,24 @@ function genwallet(lang)
     else {
       seed = cnUtil.sc_reduce32(poor_mans_kdf(user_entropy));
     }
-    var passPhrase = mn_encode(seed,current_lang);
-    var words = getStringWords(passPhrase);
-    seed = CryptoJS.SHA256(salt + words.join(' ')).toString();
     keys = cnUtil.create_address(seed);
   }
-  mnemonic = passPhrase;
- 
+  mnemonic = mn_encode(seed,current_lang);
 
-  wallet_keys_widget.innerHTML = keys.privateKeys;
-  address_widget.innerHTML = keys.public_addr;
+  spend_key_widget.innerHTML = keys.spend.sec;
+  view_key_widget.innerHTML = keys.view.sec;
+  address_widget.innerHTML = cnUtil.pubkeys_to_string(keys.spend.pub, keys.view.pub);
   address_qr_widget.innerHTML = "";
   mnemonic_widget.innerHTML = mnemonic;
 
-  qr=new QRCode(address_qr_widget, {correctLevel:QRCode.CorrectLevel.L});
-  qr.makeCode("karbowanec:"+keys.public_addr);
+  // only monero has the URI scheme
+  if (prefix_widget.value == "4") {
+    qr=new QRCode(address_qr_widget, {correctLevel:QRCode.CorrectLevel.L});
+    qr.makeCode("monero:"+keys.public_addr);
+  }
+  else {
+    qr = null;
+  }
 }
 
 previous_button_text = "";
@@ -10880,9 +10697,6 @@ function genwallet_prefix_worker()
   while (true) {
     attempts++;
     seed = cnUtil.sc_reduce32(cnUtil.rand_32());
-    var passPhrase = mn_encode(seed,current_lang);
-    var words = getStringWords(passPhrase);
-    seed = CryptoJS.SHA256(salt + words.join(' ')).toString();
     keys = cnUtil.create_address_if_prefix(seed,prefix);
     if (keys != null) {
       gen_prefix_widget = document.getElementById("gen_prefix_widget");
@@ -10898,7 +10712,7 @@ function genwallet_prefix_worker()
       return;
     }
   }
-  mnemonic = passPhrase;
+  mnemonic = mn_encode(seed,current_lang);
 
   spend_key_widget = document.getElementById("spend_key_widget");
   view_key_widget = document.getElementById("view_key_widget");
@@ -10911,21 +10725,19 @@ function genwallet_prefix_worker()
   address_qr_widget.innerHTML = "";
   mnemonic_widget.innerHTML = mnemonic;
 
-  wallet_keys_widget.innerHTML = keys.privateKeys;
-  
   qr=new QRCode(address_qr_widget, {correctLevel:QRCode.CorrectLevel.L});
-  qr.makeCode("karbowanec:"+keys.public_addr);
+  qr.makeCode("monero:"+keys.public_addr);
 }
 
 var zerohex="0000000000000000000000000000000000000000000000000000000000000000";
 var ffhex="ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
-var lowest_address=cnUtil.pubkeys_to_string(zerohex,zerohex);
-var highest_address=cnUtil.pubkeys_to_string(ffhex,ffhex);
 
 function is_valid_prefix(prefix)
 {
   if (prefix.length <= 0 || prefix.length >= 95)
     return false;
+  var lowest_address=cnUtil.pubkeys_to_string(zerohex,zerohex);
+  var highest_address=cnUtil.pubkeys_to_string(ffhex,ffhex);
   var lowest=lowest_address.substr(0,prefix.length);
   var highest=highest_address.substr(0,prefix.length);
   if (prefix<lowest)
@@ -10966,8 +10778,8 @@ function genwallet_prefix()
     prefix_widget = document.getElementById("prefix_widget");
     prefix = prefix_widget.value;
     prefix.trim();
-    if (prefix.length < 2 || prefix[0] != "K") {
-      alert("Bad prefix "+prefix+" should start with K and be at least one extra character");
+    if (prefix.length < 2) {
+      alert("Bad prefix should be at least two characters");
       return;
     }
     if (!is_valid_prefix(prefix)) {
@@ -10981,6 +10793,40 @@ function genwallet_prefix()
     prefix_widget.disabled = true;
     setTimeout(genwallet_prefix_worker, 0);
   }
+}
+
+function checkEntropy()
+{
+  var good = true;
+  var button = document.getElementById("gen_with_custom_entropy_button")
+  var user_entropy_widget = document.getElementById("user_entropy_widget")
+  var user_entropy = user_entropy_widget.value;
+  var user_entropy_warning_widget = document.getElementById("user_entropy_warning_widget")
+  if (user_entropy.length === 0) {
+    user_entropy_warning_widget.style.display = "none"
+    return
+  }
+
+  var count = new Int32Array(256);
+  for (var n = 0; n < 256; ++n)
+    count[n] = 0
+  for (var n = 0; n < user_entropy.length; ++n)
+    count[user_entropy.charCodeAt(n)]++;
+  var e = 0
+  for (var n = 0; n < 256; ++n) {
+    if (count[n] > 0) {
+      var p = count[n] / user_entropy.length
+      p *= Math.log(p) / Math.log(2)
+      e -= p
+    }
+  }
+  e *= user_entropy.length
+  if (e < 128)
+    good = false
+  if (good)
+    user_entropy_warning_widget.style.display = "none"
+  else
+    user_entropy_warning_widget.style.display = "block"
 }
 
 function toggle_qr()
@@ -11003,8 +10849,50 @@ function toggle_qr()
   }
 }
 
+function enableElement(id, enable)
+{
+  var el = document.getElementById(id)
+  if (el) {
+    if (enable)
+      el.disabled = false;
+    else
+      el.disabled = true;
+  }
+}
+
+function enableLanguage(code, enable)
+{
+  enableElement("lang_" + code, enable)
+}
+
+function setCoin(index)
+{
+  var enable
+  var language
+  prefix_widget = document.getElementById("prefix_widget");
+  if (index == 0) {
+    cnUtil = cnUtilGen(moneroConfig);
+    prefix_widget.value = "4";
+    enable = true
+    language = "english"
+  }
+  else if (index == 1) {
+    cnUtil = cnUtilGen(aeonConfig);
+    prefix_widget.value = "W";
+    enable = false
+    language = "electrum"
+  }
+  enableLanguage("en", enable)
+  enableLanguage("es", enable)
+  enableLanguage("pt", enable)
+  enableLanguage("jp", enable)
+  enableElement("show_qr_code", enable)
+  genwallet(language);
+}
+
 genwallet();
 </script>
 
-</body>
-</html>
+
+
+</body></html>
